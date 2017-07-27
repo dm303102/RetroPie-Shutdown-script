@@ -6,9 +6,13 @@ Installation:
 1. SSH to Linux Pi
 2. Enter cd ~
 3. Install RPI.GPIO with command
+
       sudo apt-get install python-dev python-rpi.gpio
+      
 4. Use Winscp to upload shutdown.py or use git at the SSH terminal with the command:
+
       git clone https://github.com/dm303102/Retropie.git
+
 5. Enter sudo vi /etc/rc.local 
 6. Scroll to 1 line before the #fi at the end of the file(with j)
 7. Add the text below(with a):
