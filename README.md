@@ -1,4 +1,3 @@
-# Retropie python shutdown script
 Filename: shutdown_pi.py
 
 Description: This script will allow you to press a RESET button attached to the Pi board to safetly shutdown if RetroPie freezes. This avoids corrupting the SD card.
