@@ -15,5 +15,15 @@ Installation:
 sudo python /home/pi/shutdown_pi.py &
 8. Press Esc Esc :wq to save and quit
 
+If you ever have issues with corrupt SD cards, you can try to enable auto-repair every restart with:
+
+1. cd /
+2. sudo touch /forcefsck
+3. sudo reboot
+
+OR
+
+1. sudo tune2fs -c 1 /dev/mmcblk0p2
+
 Usage:
 While RetroPie is running, hold the right RESET button on the game console for 2 to 4 seconds to restart the console; THE LIGHT WILL BLINK RAPIDLY. If this fails, holding the buttons for more than 4 seconds will issue a HARD SHUTDOWN command; THE LIGHT WILL BLINK SLOWLY. Once all the light on the board are off. It is safe to press the power button.
